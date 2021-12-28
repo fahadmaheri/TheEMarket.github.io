@@ -1,0 +1,294 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	font-family: sans-serif;
+}
+
+/* Header / Navigation */
+header nav .logo{
+	display: inline-block;
+
+}
+.logo h1{
+	margin:25px 90px;
+}
+
+.logo h1 a{
+  padding: 23px 10px;
+  color: #E9DFE0;
+}
+header nav{
+	height: 80px;
+	background:#0E0A18;
+}
+nav ul{
+	list-style: none;
+	float: right;
+	margin: 0px 250px 0px 0px;
+}
+
+nav ul li{
+	float: left;
+	margin: 25px 25px 25px 10px ;
+}
+ nav li a{
+ 	color: #E9DFE0;
+ 	font-weight: bolder;
+ }
+  nav li a:hover{
+  	border-bottom: 2px solid #E9DFE0;
+ }
+header .hea{
+	background-image: url("EMarketimages/headpic.png");
+	background-repeat: no-repeat;
+    background-size: cover;
+	height: 400px;
+	color: white;
+}
+
+.headcont{
+	text-align: center;
+	position: relative;
+	top: 35%;
+	margin-bottom: 15px;
+}
+
+.hea a{
+	color: white;
+	padding: 12px 10px;
+	position: relative;
+	top: 40%;
+	left: 45%;
+	background: #0E0A18;
+	border-radius: 5px;
+}
+.hea a:hover{
+	color:#0E0A18;
+	background:#E9DFE0;
+}
+/* Section One */
+#one{
+ /*border:1px solid green;*/
+ background: #E9DFE0;
+ height: 400px;
+ display: flex;
+ padding: 20px 10px 10px 120px;
+}
+.onebox{
+	height: 350px;
+	width:450px;
+	/*border: 1px solid red;*/
+}
+.picture img{
+ height: 345px;
+ width: 445px;
+}
+.picture{
+  margin-right: 20px;
+  margin-left: 60px;
+} 
+
+.aboutus{
+	margin-left:30px;
+}
+
+.aboutus h2{
+	margin-top: 20px;
+	margin-left: 10px;
+}
+.aboutus p{
+	margin-top: 20px;
+	margin-left: 10px;
+ text-align: justify;
+}
+
+.aboutus a{
+ position: relative;
+ bottom: -15%;
+ padding: 16px;
+ border-radius: 5px;
+ background: #0E0A18;
+ color: #E9DFE0;
+ font-weight: bold;
+ margin-left: 10px;
+}
+.aboutus a:hover{
+	background: #E9DFE0;
+	color:#0E0A18; 
+	border: 1px solid #0E0A18;
+}
+
+/* Section Two */
+#two{
+ background: #E9DFE0;
+ height: 400px;
+ display: flex;
+ padding: 30px 10px 10px 120px;
+}
+
+#two .picture h2{
+	margin-top: 20px;
+	margin-left: 10px;
+}
+
+#two .picture p{
+	margin-top: 20px;
+	margin-left: 10px;
+ text-align: justify;
+}
+
+#two .aboutus img{
+ height: 345px;
+ width: 445px;
+}
+/* Section Three */
+#three{
+    background: #0E0A18;
+	display: flex;
+}
+#three .catbox{
+	margin-top: 10px;
+	color: black;
+	display: flex;
+	font-size: 14px;
+	width: 420px;
+	padding: 10px;
+	background: transparent;
+}
+
+#three .catbox img{
+	height: 100px;
+	width: 100px;
+	border-radius: 50%;
+	padding: 10px;
+}
+#three .cat{
+	background: #92A4B9;
+	position: relative;
+	left: 15%;
+	height: 100%;
+}
+#three .catbox span{
+  font-size: 17px;
+  font-weight: bold;
+}
+#three .whyus{
+	color: #E9DFE0;
+	position: relative;
+	width: 500px;
+	display: inline-block;
+	left: 20%;
+}
+.whyus h3 {
+ margin-top: 40px;
+ margin-bottom: 20px;
+ font-size: 30px;
+}
+
+#three .whyus img{
+	width: 130px;
+	height: 130px;
+	border-radius: 50%;
+	margin: 20px 0 10px 40px;
+}
+ 
+.whyus .fahad{
+	display: inline-block;
+    position: relative;
+    left: -23%;
+    top: 2%;
+    font-family: sans-serif;
+}
+
+.whyus .ceo{
+	display: inline-block;
+    position: relative;
+    left: 5%;
+    top: 2%;
+    font-family: sans-serif;
+}
+
+.whyus ul{
+	list-style: none;
+	margin-top: 15px;
+	margin-left: 55px;
+}
+
+.whyus li{
+	float: left;
+	margin: 0px 5px;	
+}
+.whyus li a{
+	font-size: 20px;
+	color: white;
+}
+/* Section Four */
+.four{
+	height: 200px;
+	background:#E9DFE0;
+	padding-top: 60px;
+}
+
+.four h1{
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.four a{
+	border: none;
+	margin-left:630px;
+	background: #0E0A18;
+	border-radius: 5px;
+	padding: 10px;
+	color: #E8DFE0;
+	font-size: 18px;
+}
+.four a:hover{
+  background: #E8DFE0;
+  color: #0E0A18;
+  border: 1px solid #0E0A18 ;
+}
+
+/* Footer Area */
+.farea{
+	display: flex;
+	background: #0E0A18;
+	color: #E9DFE0;
+	font-family: 'Inconsolata', monospace;
+}
+.farea .flogo{
+	margin: 90px 20px 0px 100px;
+}
+.contact{
+   margin: 20px 20px 0px 100px;
+}
+.farea span i{
+	margin: 5px;
+}
+.farea .use{
+	padding-bottom: 20px;
+}
+.farea .use a{
+   margin-bottom: 5px;
+   font-size: 15px;
+   display: block; 
+   padding: 2px;
+   font-size: 15px;
+   color: #E9DFE0;
+}
+
+.farea ul{
+	list-style: none;
+	float: left;
+}
+.farea ul li{
+		float: left;
+		margin: 0 10px;
+}
+
+.farea li a{
+	font-size: 30px;
+	color: #E9DFE0;
+}
